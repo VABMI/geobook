@@ -1,0 +1,85 @@
+body{
+
+background-image: url(E:/geobuuk/yourpage/img/red.png);
+background-repeat: no-repeat;
+background-size: 100% 700px;
+
+}
+
+.simple-form{
+
+    margin:50px 400px;
+	text-align: center;
+
+
+}
+
+
+#registration{
+width: 100%;
+background: rgba(0,0,0,.8);
+box-shadow: 0 15px 25px rgba(0,0,0.5);
+padding:50px 8px;
+border-radius:10px;
+
+}
+#button{
+width:250px;
+padding:10px;
+border-radius:5px;
+outline: 0px;
+
+}
+
+#ph{
+outline: 0px;
+width: 100px;
+padding: 10px;
+border-radius: 5px;
+
+
+
+
+}
+
+#ph1{
+
+outline: 0px;
+width: 90px;
+padding: 10px;
+border-radius: 5px;
+
+
+}
+
+#phone{
+
+width:150px;
+padding:10px;
+border-radius:5px;
+outline: 0px;
+
+
+
+}
+#rd{
+
+
+
+}
+#but{
+color: white;
+font-size: 18px;
+
+}
+#butt{
+
+	width:250px;
+padding:10px;
+border-radius:5px;
+outline: 0px;
+background-color: #0c6996;
+border:2px solid #01010c;
+color:aliceblue;
+font-size: 18px;
+}
