@@ -1,10 +1,17 @@
 body
-{
-
+{		font-family: sans-serif;
+	
 	background-color: green;
+	margin: 0;
+padding: 0;
+background-image: url(E:/geobook/yourpage/img/uu.png);
+background-size:cover; 
+ background-attachment: fixed;
+
+
 }
 .nav{
-	transform: translate(-50%,-10%);
+	
   	border-bottom: 1px solid #fff;
 	 font-size: 16px;
 	position: fixed;
@@ -12,17 +19,85 @@ body
 	box-shadow: 0 15px 25px rgba(0,0,0.5);
 	height: 60px;
 	top:0;
-	//right: 0;
+	rsight: 0;
 	float: left;
 	width: 100%;
     background: rgba(0,0,0,.8);
 	border-radius:20px; 
+	margin-left:300px;
+	padding-left:150px;
+
+	box-shadow: 0 15px 25px rgba(0,0,0.5);
 }
 .div
 {
-
+padding-top:100px;
 border-right: 1px solid #fff;
 float top:30px;
 	width: 30px;
 	height: 100px; 
+}
+input{
+margin-top:10px;
+box-shadow:nav;
+margin-left:10px;
+height:40px;
+width:120px;
+background-color:transparent;
+color:white;
+font-size:20px;
+border-top:none;
+border-left:none;
+border-right:none;
+
+}
+
+
+.subsearch{
+
+float:left;
+
+}
+
+.submitq:hover{
+
+
+	margin-top:10px;
+box-shadow:nav;
+margin-left:10px;
+height:40px;
+width:120px;
+background-color:transparent;
+color:white;
+font-size:20px;
+
+cursor:pointer;
+border:1px solid white;
+}
+
+
+
+
+
+.search{
+font-size:16px;
+border:3px solid white;
+width:300px;
+border-top:none;
+border-left:none;
+border-right:none;
+margin-left:150px;
+background-color:transparent;
+
+}
+
+
+ .nav input:focus~label,
+.nav input:valid~label
+{
+top: -18px;
+left: 0;
+color: #03a9f4;
+font-size: 12px;
+
 }
