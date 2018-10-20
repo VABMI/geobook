@@ -17,7 +17,7 @@ background-size:cover;
 	position: fixed;
 
 	box-shadow: 0 15px 25px rgba(0,0,0.5);
-	height: 60px;
+	height: 40px;
 	top:0;
 	rsight: 0;
 	float: left;
@@ -25,7 +25,7 @@ background-size:cover;
     background: rgba(0,0,0,.8);
 	border-radius:20px; 
 	margin-left:300px;
-	padding-left:150px;
+	padding-left:100px;
 
 	box-shadow: 0 15px 25px rgba(0,0,0.5);
 }
@@ -38,14 +38,14 @@ float top:30px;
 	height: 100px; 
 }
 input{
-margin-top:10px;
-box-shadow:nav;
+margin-top:5px;
+bsox-shadow:nav;
 margin-left:10px;
-height:40px;
-width:120px;
+height:30px;
+width:80px;
 background-color:transparent;
 color:white;
-font-size:20px;
+font-size:16px;
 border-top:none;
 border-left:none;
 border-right:none;
@@ -62,14 +62,20 @@ float:left;
 .submitq:hover{
 
 
-	margin-top:10px;
-box-shadow:nav;
+
+
+
+
+//////////////////////
+
+
+margin-top:5px;
 margin-left:10px;
-height:40px;
-width:120px;
+height:30px;
+width:80px;
 background-color:transparent;
 color:white;
-font-size:20px;
+font-size:16px;
 
 cursor:pointer;
 border:1px solid white;
@@ -81,23 +87,16 @@ border:1px solid white;
 
 .search{
 font-size:16px;
-border:3px solid white;
-width:300px;
+border:1px solid white;
+width:200px;
 border-top:none;
 border-left:none;
 border-right:none;
-margin-left:150px;
+margin-left:100px;
 background-color:transparent;
 
 }
 
-
- .nav input:focus~label,
-.nav input:valid~label
-{
-top: -18px;
-left: 0;
-color: #03a9f4;
-font-size: 12px;
-
-}
+.input:focus { 
+    background-color: yellow;
+} 
