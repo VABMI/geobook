@@ -3,11 +3,45 @@
 <head>
 	<title>hhhhh</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+
+$('.toggle').click(function(){
+
+	$('.toggle').toggleClass('active')
+})
+
+})
+
+</script>
+
+
 </head>
 <body>
-<nav class="nav">
-	<input type="submit" title="asas"name="aaaa" value="Aaaaaa" class="submitq">
+<nav class="nav" id="idnav">
 
+	<nav class="toggle">
+		<span> </span>
+		<span> </span>
+		<span> </span>
+	</nav>
+
+	<div class="buttons">
+<input type="submit" title="asas"name="aaaa" value="Aaaaaa" class="submitq">
 <input type="submit" title="asas"name="aaaa" value="SMS"class="submitq">
 <input type="submit" title="asas"name="aaaa" value="POST" class="submitq">
 <input type="submit" title="asas"name="aaaa" value="FORUM"class="submitq">
@@ -17,13 +51,46 @@
 <input type="text" title="asas"name="" value="" class="search" required="" class="input" placeholder="search"/>
 
 
-
+</div>
 </nav>
 <div class="div">
 	
+<p class="p" id="p">asdasd</p>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+
+
+            					function refreshuse(){
+ 					
+
+ 							let width=document.body.clientWidth;
+ 							let height=document.documentElement.clientHeight;
+
+							document.getElementById("p").innerHTML = width+"___"+ height;	
+					var x = document.getElementById("idnav");
+								if(width<1000){
+
+								     //x.style.display = "block";
+									 //x.style.width = "350px";
+								}
+								else{
+
+ 						x.style.width = "350%";
+
+								}
+
+                              setTimeout(refreshuse,10);
 
 
 
+
+
+         					}
+         					refreshuse();
+         					
+</script>
 </div>
 
 
