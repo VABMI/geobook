@@ -24,22 +24,24 @@ background-size:cover;
 	width: 100%;
     background: rgba(0,0,0,.8);
 	border-radius:20px; 
-	margin-left:300px;
-	padding-left:20px;
+	margin-left:400px;
+	padding-left:50px;
 
 	box-shadow: 0 15px 25px rgba(0,0,0.5);
 }
 .div
 {
-padding-top:100px;
-border-right: 1px solid #fff;
+margin-top:40px;
+border: 1px solid #fff;
 float top:30px;
 	width: 30px;
-	height: 100px; 
+	height: 200px; 
+	border:none;
+
 }
 input{
 margin-top:5px;
-bsox-shadow:nav;
+box-shadow:nav;
 margin-left:10px;
 height:30px;
 width:80px;
@@ -61,11 +63,6 @@ float:left;
 
 .submitq:hover{
 
-
-
-
-
-
 //////////////////////
 
 
@@ -83,6 +80,29 @@ border:1px solid white;
 
 
 
+.submitq1{
+border:1px solid white;
+
+
+
+}
+.submitq1:hover{
+
+
+margin-top:5px;
+margin-left:10px;
+height:30px;
+width:80px;
+background-color:transparent;
+color:white;
+font-size:16px;
+
+cursor:pointer;
+
+border:1px solid white;
+}
+
+
 
 
 .search{
@@ -94,6 +114,11 @@ border-left:none;
 border-right:none;
 margin-left:100px;
 background-color:transparent;
+
+}
+.search1{
+	width:200px;
+	
 
 }
 
@@ -112,6 +137,8 @@ background-color:transparent;
 
 .toggle{
 float:left;
+padding-top:6px;
+margin-top:10px;
 }
 
 .toggle span      
@@ -121,8 +148,9 @@ width:36px;
 height:4px;
 background:#fff;
 display:block;
-margin-bottom:8px;
+margin-bottom:5px;
 transition:.5s;
+
 
 
 }
