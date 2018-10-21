@@ -187,5 +187,16 @@ transform-origin:left;
 {
 
 	transform:scaleX(0);
+}
 ///////////////////////////////////////
+////////////////// POSTS/////////////////////////
+#sw{
+
+padding:1100px;
+
+width:300px;
+height:300px;
+
+	border:5px solid black;
+}
 
