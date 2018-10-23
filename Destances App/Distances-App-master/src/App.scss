@@ -1,0 +1,104 @@
+$fa-font-path: "./font-awesome-4.7.0/fonts"; //must incl this to resolve fonts
+@import "./font-awesome-4.7.0/scss/font-awesome.scss";
+//@import './font-awesome-4.7.0/scss/font-awesome';
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+
+  .App-header {
+    background-color: #222;
+    height: 186px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App-title {
+    font-size: 1.5em;
+  }
+
+  .App-intro {
+    font-size: large;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
+
+
+//styles in global form
+header{
+  text-align: center;
+
+  i.fa.fa-car.fa-6 {
+    font-size: 8em;
+  }
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  i.fa.fa-arrow-circle-left:hover {
+    //font-size: 8em;
+    //opacity: .3;
+    color:#bf4b4b;
+  }
+
+  h1{
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  hr{
+    width: 100%;
+    border-top: 2px dashed #a0a0a0;
+  }
+
+  div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5px 20px;
+    min-width: 250px;
+    min-height: 300px;
+    height: calc(100vh - 345px);
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 11px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  input[type="button"] {
+    margin-top: 25px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+
+    .clearBasket{
+      color: red;
+      opacity: .3;
+    }
+    .clearBasket:hover{
+      opacity: 1;
+    }
+  }
+
+
+}
