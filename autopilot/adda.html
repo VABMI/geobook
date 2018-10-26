@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		
+
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+	
+var p=1;
+        var yiu,tre;
+        var zm,nm;
+       var arr= new Array(49);
+        var poi;
+
+for(var er=0;er<49;er++){
+
+	arr[er]=new Array(49);
+}
+</script>
+</head>
+<body>
+
+<table>
+	<script type="text/javascript">
+		///            21
+		for(var i=0;i<=25;i++){
+      document.write("<tr>");
+	
+	////           38
+	for(var t=0;t<=44;t++){
+	document.write("<td id='"+p+"'>"+p+"</td>");
+		arr[i][t]=p;
+p++;
+}
+
+	
+document.write("</tr>");
+
+
+
+}
+</script>
+
+
+</table>
+<br>
+<div>
+<input type="text" name="" placeholder="sawyisi kordinati" id="s1">
+<input type="text" name="" placeholder="saboloo kordinati" id="s2">
+<input type="submit" id="ff" value="ჩვენება" name="chveneba" onclick="migeba()">
+</div>
+<p id="n">sss</p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+
+
+
+function migeba() {
+	//document.getElementById("ff").style.background="#800066";
+	var eee=document.getElementById("s1").value;
+var ooo=document.getElementById("s2").value;
+for(var r=0;r<=25;r++){
+
+
+	for(var c=0;c<=44;c++){
+
+          if(arr[r][c]==eee){  yiu=r;
+          	tre=c;}
+
+
+	}
+}
+
+///////////////////////
+for(var r=0;r<=25;r++){
+
+
+	for(var c=0;c<=44;c++){
+
+          if(arr[r][c]==ooo){  zm=r;
+          	nm=c;}
+
+
+	}
+}
+
+
+
+var tyu=yiu+"_"+tre;
+var ytgf=zm+"_"+nm;
+document.getElementById("n").innerHTML=tyu+"\n"+ytgf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var x=yiu,y=tre;
+var ff=zm,nn=nm;
+
+
+for (i=0; i<=80; i++) {
+
+var sdf=arr[x][y];
+
+
+if(x>=ff&&y<nn)
+{
+	if(x!=ff){
+x=x-1;
+}
+if(y!=nn){
+y=y+1;
+}
+}
+
+
+
+if(x<ff&&y>=nn)
+{
+	if(x!=ff){
+x=x+1;
+}
+if(y!=nn){
+y=y-1;
+}
+}
+
+
+
+if(x<ff&&y<nn){
+if(x!=ff){
+x=x+1;
+}
+if(y!=nn){
+y=y+1;
+}
+}
+
+
+
+if(x>ff&&y>nn){
+if(x!=ff){
+x=x-1;
+}
+if(y!=nn){
+y=y-1;
+}
+}
+
+
+
+document.getElementById(sdf).style.background="red";
+
+
+
+document.getElementById(ooo).style.background="blue";
+document.getElementById(eee).style.background="yellow";
+
+
+}
+
+
+//setTimeout(migeba(),1000);
+
+
+
+}
+document.onkeydown=function(Event){
+	var key_press=String.fromCharCode(Event.keyCode);
+	var key_code=Event.keyCode;
+//	document.getElementById('s1').innerHTML=key_press;
+//	document.getElementById('s2').innerHTML=key_code;
+	if(key_code==13){
+migeba();
+}
+}
+
+</script>
