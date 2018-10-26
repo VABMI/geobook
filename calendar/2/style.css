@@ -1,0 +1,87 @@
+
+*{
+	box-sizing:border-box;
+}
+ul{
+	list-style-type:none;
+}
+.month{
+
+	padding:0px 0px 25px;
+	width:25%;
+	height:5px;
+	background-color:#2f4f4f;
+	
+	border:1px solid #1d3030;
+}
+.month ul{
+
+	margin:0;
+	padding:0;
+	
+}
+.month ul li{
+
+	color:white;
+	font-size:20px;
+	text-transform:uppercase;
+}
+
+
+.next{
+	float:right;
+}
+
+.prev{
+	float:left;
+}
+
+
+
+.weekdays
+{
+
+	margin:0;
+	padding:10px 0;
+border-bottom:1px solid #70a9a9;
+	background-color: #437070;
+
+width:25%;
+
+}
+
+.weekdays li{
+	display:inline-block;
+	width:13%;
+text-align:center;
+   box-shadow: 0 10px 20px #70a9a9;
+
+}
+.days
+{
+margin:0;
+padding:10px 0;
+width:25%;
+background-color:#609f9f;
+height:50%;
+padding-left:5px;
+
+
+}
+.days li{
+display:inline-block;
+text-align:center;
+width:13%;
+border:1px solid red;
+font-size:18px;
+margin-top:5px;
+background-color:;
+
+}
+
+.active
+{
+background-color: #2f4f4f;
+
+
+}
