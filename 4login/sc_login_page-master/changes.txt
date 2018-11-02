@@ -1,0 +1,5 @@
+
+
+Also, note all borders were set to have rounded edges, but no visible border
+For input fields, they were given a soft glow and a shadow underneath
+Input labels are placed on top

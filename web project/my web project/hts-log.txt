@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 03 Nov 2018 00:26:29 at https://accounts.livechatinc.com/?client_id=bb9e5b2f1ab480e4a715977b7b1b4279&response_type=token&redirect_uri=https%3A%2F%2Fmy.livechatinc.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://accounts.livechatinc.com/?client_id=bb9e5b2f1ab480e4a715977b7b1b4279&response_type=token&redirect_uri=https%3A%2F%2Fmy.livechatinc.com -O1 "D:\web project\my web project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:26:30	Warning: 	Moved Temporarily for https://accounts.livechatinc.com/robots.txt
+00:26:30	Warning: 	File has moved from https://accounts.livechatinc.com/robots.txt to /robots.txt?client_id=be4ac276b81af255624473a222e1155c&redirect_uri=https%3A%2F%2Faccounts.livechatinc.com%2Fdispatcher&response_type=code
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 seconds : 6 links scanned, 5 files written (929388 bytes overall) [401861 bytes received at 80372 bytes/sec], 723986 bytes transferred using HTTP compression in 1 files, ratio 26%, 1.5 requests per connection
+(No errors, 2 warnings, 0 messages)

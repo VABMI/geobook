@@ -1,0 +1,114 @@
+/* set background styles */
+body {
+  background: #F5F6F7;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* set styles for container div */
+.container {
+  background: #fff;
+  /* set custom padding to extend div */
+  padding: 0 15px 25px;
+  border-radius: 4px;
+}
+
+/* set styles for page title */
+#page_title {
+  margin-bottom: 50px;
+  /* larger than life */
+  font-size: 40px;
+  /* heavier than life */
+  font-weight: bold
+}
+
+/* set styles for the word 'Smart' in the page title */
+.sc_smart {
+  color: #3C5FA6;
+}
+
+/* set styles for the word 'Cover' in the page title */
+.sc_cover {
+  color: green;
+}
+
+/* set copywrite size */
+.copywrite {
+  font-size: 12px;
+}
+
+/* set style for form error message */
+#alert_mess {
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* set styles for input labels */
+.form-group>.text-center {
+  font-size: 20px;
+}
+
+/* set styles for submit button */
+.login_button {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.85px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* remove outline on active and focused submit button */
+.btn-primary:active:focus {
+  outline: none;
+}
+
+/* remove outline on submit button focused visited state */
+.btn-primary:focus,
+.btn-primary:visited {
+  outline: none;
+}
+
+/* set styles for username and password fields */
+#username_field,
+#password_field {
+  /* remove standard borders on form fields, except for the bottom one */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #A7C9E2;
+  /* remove the standard box shadow on input fields */
+  box-shadow: none;
+  border-radius: 0;
+  padding: 6px 0;
+  /* set custom margins on username_field. looks like it's 15px by default */
+  margin-bottom: 30px;
+}
+
+/* set custom styles for placeholder text  */
+#username_field::placeholder,
+#password_field::placeholder {
+  font-size: 15px;
+  color: #ff8362;
+  font-family: Verdana;
+}
+
+
+/* media queries for tablet or larger screens */
+@media (min-width: 700px) {
+  .container {
+    /* set a max width for bigger screens. the bigger screens have room, change width of container div to 70% */
+    max-width: 70%;
+    /* on larger screens, adjust top margin and set other parameter to auto to keep the div centered */
+    margin: 7.5% auto;
+  }
+}
+
+/* media queries for mobile. this is for any screen smaller than 700px */
+@media (max-width: 699px) {
+  .container {
+    /* change container max width to 90%. need to use most of the screen available... not needed for bigger screens */
+    max-width: 90%;
+    /* set margins for mobile. gives the top some room and some on the left and right sides */
+    margin: 10% 5%;
+  }
+}
