@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav bar</title>
+	<link rel="stylesheet" href="style.css" >
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+
+$('.toggle-btn').click(function(){
+
+	$('.toggle-btn').toggleClass('active')
+})
+
+})
+
+</script>
+</head>
+<body onscroll="myFunction()" id="body">
+
+
+<div id="sidebar">
+
+<div class="toggle-btn" onclick="funcbtn()">
+	<span></span>
+	<span></span>
+	<span></span>
+	</div>
+
+
+
+
+	
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+</ul>
+
+
+</div>
+<script type="text/javascript">
+let bool1=true;
+
+
+$("#sidebar").hide();
+
+ function myFunction() {
+ //var elmnt = document.getElementById("body");
+
+   
+    var y = this.scrollY;
+
+   if(y>100){
+
+   	 $("#sidebar").show();
+   }
+   else{
+   		 $("#sidebar").hide();
+   }
+}
+
+
+
+function funcbtn()
+{
+
+	//alert("asdad");
+
+	//document.getElementById("slidebar").classList.toggle('active');
+	if(bool1){
+	document.getElementById("sidebar").style.left = "0px";
+	
+	bool1=false;
+	}
+	else{
+		document.getElementById("sidebar").style.left = "-200px";
+		bool1=true;
+	}
+
+//	 $("slidebar").show();
+
+}
+
+
+</script>
+
+
+
+
+
+<div class="head">
+
+
+<input type="submit" name="" value="home" class="butin">
+<input type="submit" name="" value="about" class="butin">
+<input type="submit" name="" value="Contact" class="butin">
+<input type="submit" name="" value="home" class="butin">
+<input type="submit" name="" value="home" class="butin">
+<input type="submit" name="" value="home" class="butin">
+
+
+</div>
+
+
+<div class="bottom">
+	
+
+
+
+</div>
+<div class="georgia">
+	
+
+
+
+</div>
+
+
+
+</body>
+</html>
