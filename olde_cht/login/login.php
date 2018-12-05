@@ -1,4 +1,5 @@
 <?php
+
 $hostname="127.0.0.1";
 $useri="root";
 $pass="";
@@ -41,6 +42,7 @@ mysqli_close($conn);
 
 
 $conn=new mysqli($hostname,$useri,$pass,$base);
+
 $sql="SELECT * FROM user WHERE email='".$email."'";
 if(!mysqli_query($conn,$sql)){echo "not connect with the table" ; }
 
